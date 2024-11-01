@@ -29,9 +29,9 @@ To run this project locally, you need to have a web browser installed.
    ```
 2. Navigate to the project directory:
 
-```bash
-   cd OctaNet_Landing-Page-Car-Race
-```
+   ```bash
+      cd OctaNet_Landing-Page-Car-Race
+   ```
 3. Open index.html in your web browser.
 
 ## Usage
@@ -40,7 +40,7 @@ To run this project locally, you need to have a web browser installed.
  - Sign up for updates by entering your email address.
 
 ## Contribution
-Contributions are welcome! If you have suggestions for improvements or new features, feel free to open an issue or submit a pull request.
+   Contributions are welcome! If you have suggestions for improvements or new features, feel free to open an issue or submit a pull request.
 
 
 Thank you for checking out the Ultimate Racing Experience!
