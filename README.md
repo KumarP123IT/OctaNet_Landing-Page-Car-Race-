@@ -25,12 +25,12 @@ To run this project locally, you need to have a web browser installed.
 
 1. Clone the repository:
    ```bash
-      git clone https://github.com/KumarP123IT/OctaNet_Landing-Page-Car-Race.git
+      git clone https://github.com/KumarP123IT/OctaNet_Landing-Page-Ultimate_Racing_Experience-.git
    ```
 2. Navigate to the project directory:
 
    ```bash
-      cd OctaNet_Landing-Page-Car-Race
+      cd OctaNet_Landing-Page-Ultimate_Racing_Experience
    ```
 3. Open index.html in your web browser.
 
