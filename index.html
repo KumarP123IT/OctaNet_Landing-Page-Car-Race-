@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultimate Racing Experience</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <h1 class="logo">Ultimate Racing</h1>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#programs">Programs</a></li>
+                <li><a href="#signup">Sign Up</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header>
+        <div class="slider">
+            <div class="slides">
+                <div class="slide active">
+                    <img src="images/img-1.jpg" alt="Nature Retreat 1">
+                </div>
+                <div class="slide">
+                    <img src="images/img-2.jpg" alt="Nature Retreat 2">
+                </div>
+                <div class="slide">
+                    <img src="images/img-3.jpg" alt="Nature Retreat 3">
+                </div>
+                <div class="slide">
+                    <img src="images/img-4.jpg" alt="Nature Retreat 3">
+                </div>
+                <div class="slide">
+                    <img src="images/img-5.jpg" alt="Nature Retreat 3">
+                </div>
+            </div>
+            <div class="controls">
+                <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+                <button class="next" onclick="changeSlide(1)">&#10095;</button>
+            </div>
+        </div>
+        <div class="header-text">
+            <h1>Welcome to Ultimate Racing Experience</h1>
+            <p >Feel the thrill of speed and adrenaline at our exclusive racing events.</p>
+            <a href="#signup" class="cta-button">Join the Race</a>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Our Racing Events</h2>
+            <p>Join us for an exhilarating experience at the most thrilling racing events. Our competitions feature top-notch vehicles and world-class drivers, providing you with unforgettable memories and a taste of real speed.</p>
+        </div>
+    </section>
+
+    <section id="programs">
+        <div class="container">
+            <h2>Upcoming Events</h2>
+            <ul>
+                <li>Formula One Grand Prix</li>
+                <li>Rally Racing Championship</li>
+                <li>Drift Racing Showdown</li>
+                <li>Endurance Racing Series</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="signup">
+        <div class="container">
+            <h2>Sign Up for Updates</h2>
+            <form action="#" method="post">
+                <input type="email" placeholder="Your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Ultimate Racing. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
